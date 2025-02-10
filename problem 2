@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+bool isPotato(string word);
+
+
+int main() {
+	// call
+	cout<<isPotato("carrot");
+
+}
+
+bool isPotato(string word) {
+	if (word == "potato") //char take single quotes, strings take double 
+		return true;
+	else
+		return false;
+
+}
