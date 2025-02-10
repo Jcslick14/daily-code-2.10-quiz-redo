@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+//declaration: name, parameters (); return type (in front)
+float PyramidVolume(int length, int width, int height);
+
+int main() {
+	//call
+	cout<<PyramidVolume(3, 4, 5);
+	
+
+}
+
+//definition: tells the function what it does 
+float PyramidVolume(int length, int width, int height) {
+	return (length* width* height) / 3;
+}
