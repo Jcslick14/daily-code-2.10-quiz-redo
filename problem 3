@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+void HiChew(); //void means dosent return anyrthing
+
+int main() {
+
+
+}
+
+void HiChew() {
+	int num = rand() % 100;
+	if (num < 20)
+		cout << "you got a kiwi!" << endl;
+	else if (num < 30) //10 % chance!
+		cout << "you got a mango!" << endl;
+	else if (num < 80)
+		cout << "you got a pineapple!" << endl;
+	else //20% chance 
+		cout << "you got a dragonfruit!" << endl;
+}
